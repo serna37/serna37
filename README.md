@@ -8,6 +8,8 @@
 ---
 
 # Follow
+<!-- Twitter -->
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40serna37serna37)](https://twitter.com/serna37serna37)
 <!-- Github -->
 [![Github](https://img.shields.io/badge/--FFFFFF?style=social&logo=github&label=Follow%20serna37)](https://github.com/serna37)
 <!-- Qiita -->
