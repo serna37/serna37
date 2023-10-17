@@ -7,7 +7,7 @@
     </td>
     <!-- Lang -->
     <td>
-      <img alt="Top Langs" height="120px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=serna37&layout=compact&count_private=true&show_icons=true&theme=onedark" />
+      <img alt="Top Langs" height="120px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=serna37&layout=compact&count_private=true&theme=onedark" />
     </td>
     <!-- Follow -->
     <td>
