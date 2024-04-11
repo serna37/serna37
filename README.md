@@ -1,4 +1,4 @@
-# MyProfile
+### MyProfile
 <table>
   <tr>
     <!-- Start -->
@@ -47,9 +47,7 @@
   </tr>
 </table>
 
----
-
-# Online Editors (Links)
+### Online Editors (Links)
 <table>
   <thead>
     <td>Markdown</td>
@@ -158,4 +156,24 @@
       </div>
     </td>
   </tr>
+</table>
+
+### App Deep Links
+<table>
+  <div>
+    <!-- PokemonGO -->
+    <a href="pokemongo://">
+      <img src="https://img.shields.io/badge/-PokemonGO-0F0F0F.svg?logo=pokemon&style=flat">
+    </a>
+    <!-- PokemonSleep -->
+    <a href="pokemonsleep://">
+      <img src="https://img.shields.io/badge/-PokemonSleep-3B66BC.svg?logo=pokemon&style=flat">
+    </a>
+  </div>
+  <div>
+    <!-- Netflix -->
+    <a href="netflix://">
+      <img src="https://img.shields.io/badge/-Netflix-E50914.svg?logo=netflix&style=flat">
+    </a>
+  </div>
 </table>
