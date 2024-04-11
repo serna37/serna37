@@ -53,9 +53,8 @@
     <td>Markdown</td>
     <td>Runtime</td>
     <td>Other Markdown</td>
-    <td>GitHub</td>
-    <td>Runtime(+account)</td>
-    <td>Front(+account)</td>
+    <td>Need Account</td>
+    <td>GitHub ChromeExt</td>
   </thead>
   <tr>
     <td>
@@ -120,27 +119,12 @@
     </td>
     <td>
       <div>
-        <!-- GitHubIDE -->
-        <div>
-          <a href="https://chromewebstore.google.com/detail/github-web-ide/adjiklnjodbiaioggfpbpkhbfcnhgkfe">
-            <img src="https://img.shields.io/badge/-GitHub_IDE-181717.svg?logo=github&style=flat">
-          </a>
-        </div>
-        <div>(Chrome Extension)</div>
-      </div>
-    </td>
-    <td>
-      <div>
         <!-- CodeHS -->
         <div>
           <a href="https://codehs.com/sandbox?ref=20">
             <img src="https://img.shields.io/badge/-CodeHS-29A7DF.svg?logo=pcgamingwiki&style=flat">
           </a>
         </div>
-      </div>
-    </td>
-    <td>
-      <div>
         <!-- CodePen -->
         <div>
           <a href="https://codepen.io/your-work/">
@@ -151,6 +135,16 @@
         <div>
           <a href="https://codesandbox.io/dashboard/recent">
             <img src="https://img.shields.io/badge/-CodeSandbox-151515.svg?logo=codesandbox&style=flat">
+          </a>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div>
+        <!-- GitHubIDE -->
+        <div>
+          <a href="https://chromewebstore.google.com/detail/github-web-ide/adjiklnjodbiaioggfpbpkhbfcnhgkfe">
+            <img src="https://img.shields.io/badge/-GitHub_IDE-181717.svg?logo=github&style=flat">
           </a>
         </div>
       </div>
