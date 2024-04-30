@@ -109,6 +109,12 @@
             <img src="https://img.shields.io/badge/-LaTex-008080.svg?logo=LaTex&style=flat">
           </a>
         </div>
+        <!-- file tree -->
+        <div>
+          <a href="https://tree.nathanfriend.io/">
+            <img src="https://img.shields.io/badge/-file_tree-000000.svg?logo=files&style=flat">
+          </a>
+        </div>
         <!-- serna's_editor -->
         <div>
           <a href="https://neras-sta.com/web-editor/">
