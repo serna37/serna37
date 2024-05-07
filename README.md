@@ -62,7 +62,7 @@
         <!-- StackEdit -->
         <div>
           <a href="https://stackedit.io/app#">
-            <img src="https://img.shields.io/badge/-StackEdit-606060.svg?logo=stackedit&style=flat">
+            <img src="https://img.shields.io/badge/Stack-Edit-darkgray.svg?logo=stackedit&style=flat">
           </a>
         </div>
         <!-- Marxi -->
@@ -112,7 +112,7 @@
         <!-- file tree -->
         <div>
           <a href="https://tree.nathanfriend.io/">
-            <img src="https://img.shields.io/badge/-file_tree-000000.svg?logo=files&style=flat">
+            <img src="https://img.shields.io/badge/file-tree-lightgray.svg?logo=files&style=flat">
           </a>
         </div>
         <!-- serna's_editor -->
@@ -155,7 +155,7 @@
         <!-- GitHubIDE -->
         <div>
           <a href="https://chromewebstore.google.com/detail/github-web-ide/adjiklnjodbiaioggfpbpkhbfcnhgkfe">
-            <img src="https://img.shields.io/badge/-GitHub_IDE-181717.svg?logo=github&style=flat">
+            <img src="https://img.shields.io/badge/GitHub-IDE-181717.svg?logo=github&style=flat">
           </a>
         </div>
       </div>
