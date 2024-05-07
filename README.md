@@ -121,6 +121,11 @@
             <img src="https://img.shields.io/badge/-serna37-981E32.svg?logo=burgerking&style=flat">
           </a>
         </div>
+        <div>
+          <a href="https://serna37.github.io/icon-badge/">
+            <img src="http://img.shields.io/badge/icon-gen-blue.svg?logo=icon&amp;style=flat">
+          </a>
+        </div>
       </div>
     </td>
     <td>
