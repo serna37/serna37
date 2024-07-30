@@ -140,6 +140,12 @@
             <img src="https://img.shields.io/badge/-CodeChef-5B4638.svg?logo=codechef&style=flat">
           </a>
         </div>
+        <!-- DB fiddle -->
+        <div>
+          <a href="https://www.db-fiddle.com/f/96mpJEj1TxFMHdTjmQRK5k/0">
+            <img src="http://img.shields.io/badge/DB-fiddle-568fb8.svg?logo=amazondocumentdb&logoColor=ffffff&labelColor=57acd6&style=flat">
+          </a>
+        </div>
       </div>
     </td>
     <td>
