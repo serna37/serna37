@@ -55,28 +55,63 @@
 ### Tools
 <table>
   <thead>
-    <td>MyTask</td>
+    <td>Hack</td>
+    <td>Others</td>
+  </thead>
+  <tr>
+    <td>
+      <div>
+        <!-- デコーダ -->
+        <a href="https://dencode.com/ja/cipher">
+          <img src="http://img.shields.io/badge/-DenCode-ffffff.svg?logo=letsencrypt&amp;logoColor=ffffff&amp;labelColor=545454&amp;style=flat">
+        </a>
+      </div>
+      <div>
+        <!-- SHA1 -->
+        <a href="https://sha1.gromweb.com/">
+          <img src="http://img.shields.io/badge/-SHA1-ffffff.svg?logo=hackaday&amp;logoColor=B12B28&amp;labelColor=5b90fb&amp;style=flat">
+        </a>
+      </div>
+      <div>
+        <!-- モースコード -->
+        <a href="https://morse.ariafloat.com/en/">
+          <img src="http://img.shields.io/badge/-MorseCode-ffffff.svg?logo=marketo&amp;logoColor=5C4C9F&amp;labelColor=c2d6ff&amp;style=flat">
+        </a>
+      </div>
+      <div>
+        <!-- EXIFツール -->
+        <a href="http://exif-check.org/">
+          <img src="http://img.shields.io/badge/-EXIF-ffffff.svg?logo=pyg&amp;logoColor=3C2179&amp;labelColor=d8fde5&amp;style=flat">
+        </a>
+      </div>
+    </td>
+    <td>
+      <div>
+        <!-- DevToys Web版 -->
+        <a href="https://devtoysweb.web.app/">
+          <img src="http://img.shields.io/badge/-DevToysWeb-9ad1f9.svg?logo=htmx&amp;logoColor=ffffff&amp;labelColor=a055af&amp;style=flat">
+        </a>
+      </div>
+      <div>
+        <!-- ラッコツール -->
+        <a href="https://rakko.tools/">
+          <img src="http://img.shields.io/badge/-Rakko-ffb8b8.svg?logo=pterodactyl&amp;logoColor=10539F&amp;labelColor=9ebeff&amp;style=flat">
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
+
+### OnlineEditors
+<table>
+  <thead>
     <td>Markdown</td>
-    <td>Other Markdown</td>
+    <td>Others</td>
     <td>Runtime</td>
     <td>Need Account</td>
     <td>GitHub ChromeExt</td>
   </thead>
   <tr>
-    <td>
-      <div>
-        <!-- new issue -->
-        <a href="https://github.com/serna37/task/issues/new">
-          <img src="http://img.shields.io/badge/issue-new-blue.svg?logo=github&style=flat">
-        </a>
-      </div>
-      <div>
-        <!-- task board -->
-        <a href="https://github.com/users/serna37/projects/1/views/2?pane=info">
-          <img src="http://img.shields.io/badge/my-board-6a5acd.svg?logo=pinboard&style=flat">
-        </a>
-      </div>
-    </td>
     <td>
       <div>
         <!-- StackEdit -->
@@ -189,3 +224,15 @@
     </td>
   </tr>
 </table>
+
+### MyTask
+<div>
+  <!-- new issue -->
+  <a href="https://github.com/serna37/task/issues/new">
+    <img src="http://img.shields.io/badge/issue-new-blue.svg?logo=github&style=flat">
+  </a>
+  <!-- task board -->
+  <a href="https://github.com/users/serna37/projects/1/views/2?pane=info">
+    <img src="http://img.shields.io/badge/my-board-6a5acd.svg?logo=pinboard&style=flat">
+  </a>
+</div>
