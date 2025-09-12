@@ -154,12 +154,6 @@
             <img src="https://img.shields.io/badge/file-tree-lightgray.svg?logo=files&style=flat">
           </a>
         </div>
-        <!-- serna's_editor -->
-        <div>
-          <a href="https://neras-sta.com/web-editor/">
-            <img src="https://img.shields.io/badge/-serna37-981E32.svg?logo=burgerking&style=flat">
-          </a>
-        </div>
       </div>
     </td>
     <td>
