@@ -224,15 +224,3 @@
     </td>
   </tr>
 </table>
-
-### MyTask
-<div>
-  <!-- new issue -->
-  <a href="https://github.com/serna37/task/issues/new">
-    <img src="http://img.shields.io/badge/issue-new-blue.svg?logo=github&style=flat">
-  </a>
-  <!-- task board -->
-  <a href="https://github.com/users/serna37/projects/1/views/2?pane=info">
-    <img src="http://img.shields.io/badge/my-board-6a5acd.svg?logo=pinboard&style=flat">
-  </a>
-</div>
