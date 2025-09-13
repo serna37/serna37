@@ -132,7 +132,7 @@
       <div>
         <!-- icon generator -->
         <div>
-          <a href="https://serna37.github.io/icon-badge/">
+          <a href="https://serna37.github.io/serna37/">
             <img src="http://img.shields.io/badge/icon-gen-blue.svg?logo=icon&style=flat">
           </a>
         </div>
