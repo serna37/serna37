@@ -1,0 +1,172 @@
+<link rel="icon" href="https://neras-sta.com/home/icon/mk7.jpg">
+<title>badge gen</title>
+<table>
+    <tbody>
+        <tr>
+            <td>🔗リンクURL</td>
+            <td><input id="url" type="text"></td>
+        </tr>
+        <tr>
+            <td>アイコン名 <a href="https://simpleicons.org/">simpleicons</a></td>
+            <td><input id="icon" type="text" value="github"></td>
+        </tr>
+        <tr>
+            <td>アイコン色 <a href="https://www.colordic.org/">色見本</a></td>
+            <td><input id="iconC" type="text" value="#ffffff"></td>
+        </tr>
+        <tr>
+            <td>左-テキスト</td>
+            <td><input id="left" type="text" value="left"></td>
+        </tr>
+        <tr>
+            <td>左-色</td>
+            <td>
+                <input id="leftC" type="color" value="#696969"><br />
+                <input id="leftCT" type="text" value="#696969"><br />
+                ※テキスト指定を優先
+            </td>
+        </tr>
+        <tr>
+            <td>左なし</td>
+            <td><input id="isL" type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>右-テキスト</td>
+            <td><input id="right" type="text" value="right"></td>
+        </tr>
+        <tr>
+            <td>右-色</td>
+            <td>
+                <input id="rightC" type="color" value="#1572B6"><br />
+                <input id="rightCT" type="text" value="#1572B6"><br />
+                ※テキスト指定を優先
+            </td>
+        </tr>
+        <tr>
+            <td>スタイル</td>
+            <td>
+                <select id="style">
+                    <option>flat</option>
+                    <option>plastic</option>
+                    <option>flat-square</option>
+                    <option>for-the-badge</option>
+                    <option>popout</option>
+                    <option>popout-square</option>
+                    <option>social</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>サンプル</td>
+            <td><div id="result"></div></td>
+        </tr>
+    </tbody>
+</table>
+<button id="copy">コピー</button>
+<style>
+    table {
+        border-collapse: collapse;
+        border: 2px solid rgb(140 140 140);
+        font-family: sans-serif;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+    }
+
+    th,
+    td {
+        border: 1px solid rgb(160 160 160);
+        padding: 8px 10px;
+    }
+
+    input {
+        text-rendering: auto;
+        color: fieldtext;
+        letter-spacing: normal;
+        word-spacing: normal;
+        line-height: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        appearance: auto;
+        -webkit-rtl-ordering: logical;
+        cursor: text;
+        background-color: field;
+        margin: 0em;
+        padding: 1px 0px;
+        border-width: 2px;
+        border-style: inset;
+        border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+        border-image: initial;
+        padding-block: 1px;
+        padding-inline: 2px;
+    }
+
+    input[type="text" i] {
+        writing-mode: horizontal-tb !important;
+        padding-block: 1px;
+        padding-inline: 2px;
+    }
+
+    button {
+        appearance: auto;
+        text-rendering: auto;
+        color: buttontext;
+        letter-spacing: normal;
+        word-spacing: normal;
+        line-height: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: center;
+        align-items: flex-start;
+        cursor: default;
+        box-sizing: border-box;
+        background-color: buttonface;
+        margin: 0em;
+        padding-block: 1px;
+        padding-inline: 6px;
+        border-width: 2px;
+        border-style: outset;
+        border-color: buttonborder;
+        border-image: initial;
+    }
+</style>
+<script>
+    const $ = i => document.getElementById(i);
+    const demo = () => {
+        const url = $("url").value;
+        const icon = $("icon").value;
+        const iconC = $("iconC").value.substring(1);
+        const left = $("left").value;
+        const leftC = $("leftC").value.substring(1);
+        const leftCT = $("leftCT").value.substring(1);
+        const LC = leftCT ? leftCT : leftC;
+        const isL = !$("isL").checked;
+        const right = $("right").value;
+        const rightC = $("rightC").value.substring(1);
+        const rightCT = $("rightCT").value.substring(1);
+        const RC = rightCT ? rightCT : rightC;
+        const style = $("style").value;
+        $("result").innerHTML = `<a href="${url}"><img src="http://img.shields.io/badge/${isL ? left : ""}-${right}-${RC}.svg?logo=${icon}&logoColor=${iconC}${isL ? `&labelColor=${LC}` : ""}&style=${style}"></a>`;
+    };
+    ["url", "icon", "iconC", "left", "leftC", "leftCT", "isL", "right", "rightC", "rightCT", "style"].forEach(v => $(v).onchange = demo);
+    demo();
+    $("copy").onclick = async () => {
+        const res = $("result").innerHTML;
+        if (navigator.clipboard) {
+            await navigator.clipboard.writeText(res);
+        } else {
+            const tmp = document.createElement("div");
+            tmp.textContent = res;
+            document.body.appendChild(tmp);
+            tmp.select();
+            document.createRange().selectNodeContents(tmp);
+            document.execCommand('copy');
+        }
+        $("copy").textContent = "コピーしました";
+        await new Promise(r => setTimeout(r, 2e3)).then(_ => $("copy").textContent = "コピー");
+    };
+</script>
